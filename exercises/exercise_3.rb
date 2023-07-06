@@ -7,7 +7,7 @@ puts "----------"
 
 # Your code goes here ...
 
-@store3 = Store.find_by(name: 'Richmond')
+@store3 = Store.find_by(name: 'Gastown')
 puts "Store 3: #{@store3.name}"
 @store3.destroy
 
